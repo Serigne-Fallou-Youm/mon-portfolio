@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../public/images/youm.jpg";
+import logo from "../assets/images/youm.jpg";
 
 function Navbar() {
   return (

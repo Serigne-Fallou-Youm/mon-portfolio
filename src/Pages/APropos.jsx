@@ -1,5 +1,5 @@
 import React from "react";
-import profilImage from "../../public/images/fallou.jpg";
+import profilImage from "../assets/images/fallou.jpg";
 
 function APropos() {
   return (

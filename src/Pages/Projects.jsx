@@ -3,15 +3,16 @@ import { useState } from "react";
 
 
 
+
 function Projects() {
   const [modalImage, setModalImage] = useState(null);
 
   const projets = [
-  { id: 1, title: "Site1", image: "../../public//images/Site1.jpg" },
-  { id: 2, title: "Site2", image: "../../public//images/site2.jpg" },
-  { id: 3, title: "Site3", image: "../../public//images/site3.jpg" },
-  { id: 4, title: "Site4", image: "../../public//images/site4.jpg" },
-  { id: 5, title: "Site5", image: "../../public//images/site5.jpg" },
+  { id: 1, title: "Site1", image: "src/assets/Images/Site2.jpg" },
+  { id: 2, title: "Site2", image: "src/assets/Images/Site2.jpg" },
+  { id: 3, title: "Site3", image: "src/assets/Images/Site2.jpg" },
+  { id: 4, title: "Site4", image: "src/assets/Images/Site2.jpg" },
+  { id: 5, title: "Site5", image: "src/assets/Images/Site2.jpg" },
 ];
 
   return (
